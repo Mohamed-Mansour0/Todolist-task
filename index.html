@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity=
+      "sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+      <link rel="stylesheet" href="./webfonts/fa-brands-400.ttf">
+      <link rel="stylesheet" href="./css/all.min.css">
+      <link rel="stylesheet" href="./css/Main.css">
+  </head>
+
+
+  <body>
+      
+
+
+
+
+
+  <h1>To Do List</h1>
+
+  <div class="container col-md-6 ">
+
+ 
+    <div class="card">
+    <div class="card-body">
+      <button id="showmodel" class="btn btn-info">Show model</button>
+    
+  </div>
+  
+</div>
+</div>
+
+<div class="container ">
+
+  
+      <div class="alert alert-danger" id="nothing">
+
+        <h2>
+          nothing here yet  
+        </h2>
+
+        
+      </div>
+
+      <div class="row" id="what-to-do">
+      
+      </div>
+      
+
+
+</div>
+
+
+
+<div id="modle" class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add Something</h5>
+        <button type="button" onclick="showmodelfunction()" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <input type="text" name="" class="form-control" id="what-to-do-input">
+
+          <label for="" class="form-label">what to do this week</label>
+          <div id="wrongmassage" class="alert alert-danger none">you must enter data
+            
+            <i id="close-wrong-massage-btn" class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="form-group">
+            <input type="text" name="" class="form-control" id="what-to-do-input">
+  
+            <label for="" class="form-label">gonna do this week</label>
+            
+          
+          </div>
+
+          
+        <div class="form-group">
+          <input type="text" name="" class="form-control" id="what-to-do-input">
+
+          <label for="" class="form-label">gonna do this month</label>
+          
+        
+        </div>
+        <div class="form-group">
+          <input type="text" name="" class="form-control" id="what-to-do-input">
+
+          <label for="" class="form-label">image url</label>
+          
+        
+        </div>
+
+          <button class="btn btn-info " id="gonna-do">gonna do</button>  
+        </div>
+        
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" onclick="showmodelfunction()" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/myjs.js"></script>
+  </body>

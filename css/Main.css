@@ -1,0 +1,80 @@
+body{
+    background-color: #000;
+    color: white;
+}
+
+
+
+.dark{
+    background-color: #000;
+
+    color: white;
+}
+
+.card { background-color: #333;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
+h1{
+
+    text-align: center;
+    color: aqua;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+     padding: 5px 0px;
+     font-size: 70px;
+
+}
+
+
+.form-group{ position: relative;
+}   
+
+label{
+    position: absolute;
+    top: 5px;
+    left: 12px;
+transition: all 1s;  
+font-family: 'Courier New', Courier, monospace;
+color: red;
+}
+
+
+input:focus +label{
+
+    top: -25px;
+}
+
+#gonna-do{
+    width: 40% !important;
+    display: block;
+    align-items: center;
+    margin: 10px 200px;
+}
+
+#close-wrong-massage-btn{
+    float: right;
+    color: red;
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+
+
+.none{ display: none;
+
+}
+
+
+.block{
+    display: block;
+}
+
+
+.modal-content {
+    color: black;
+}
